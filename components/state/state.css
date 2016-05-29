@@ -1,0 +1,20 @@
+/*doc
+---
+title: State
+name: state
+category: State
+---
+
+We have a few background colors that can be used in various contexts.
+These are not for use as the entire page background but instead for
+specific components and modules on the page.
+
+```html_example
+<ul class="nav-step">
+  <li class="done"><a href="#">1. Step 1</a></li>
+  <li class="active"><a href="#">2. Step 2</a></li>
+  <li><a href="#">3. Step 3</a></li>
+  <li class="disabled">4. Step 4</li>
+</ul>
+```
+*/
