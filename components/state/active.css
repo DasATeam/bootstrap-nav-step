@@ -1,0 +1,17 @@
+/*doc
+---
+parent: state
+title: Active
+name: active
+---
+
+We have a few background colors that can be used in various contexts.
+These are not for use as the entire page background but instead for
+specific components and modules on the page.
+
+```html_example
+<ul class="nav-step">
+  <li><a href="#">Normal state step</a></li>
+</ul>
+```
+*/

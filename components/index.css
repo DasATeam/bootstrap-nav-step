@@ -5,16 +5,17 @@ name: welcome
 category: Index
 ---
 
-This style guide will help you to use [hologram](http://trulia.github.io/hologram)
-can help you build and maintain.
+This style documentation will help you to use
+[Bootstrap nav-step](https://github.com/DasATeam/bootstrap-nav-step) in your projects.
 
 The Bootstrap nav-step is an extenstion of bootstrap nav itself, because
 in lot of cases we usually need some kind of step by step component to
 help navigate user in our application.
 
-If you want to use Bootstrap nav-step you can fork at our [git repository](http://github.com/trulia/hologram)
-and head to dist/bootstrap-nav-step.
+If you want to use Bootstrap nav-step you can go to our
+[git repository](https://github.com/DasATeam/bootstrap-nav-step)
+and head to dist/bootstrap-nav-step.css.
 
-This is a work in progress, please consider contributing to our repo too.
+This is a work in progress, we welcome feedback too.
 
 */

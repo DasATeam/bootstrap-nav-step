@@ -36,7 +36,7 @@
             <ul class="docNav listInline">
               <!-- Add you pages here -->
               <li><a href="index.html">Index</a></li>
-              <li><a href="quick_use.html">Quick Use</a></li>
+              <li><a href="quick_start.html">Quick Start</a></li>
               <li><a href="state.html">State</a></li>
             </ul>
           </span>
@@ -56,6 +56,14 @@
                   
                     <li><a href="#state">State</a></li>
                   
+                    <li><a href="#active">Active</a></li>
+                  
+                    <li><a href="#disabled">Disabled</a></li>
+                  
+                    <li><a href="#done">Done</a></li>
+                  
+                    <li><a href="#normal">Normal</a></li>
+                  
                 </ul>
               </div>
             </div>
@@ -63,9 +71,14 @@
 
           <div class="main col cols20 lastCol">
 <h1 id="state" class="styleguide">State</h1>
-<p class="styleguide">We have a few background colors that can be used in various contexts.
-These are not for use as the entire page background but instead for
-specific components and modules on the page.</p><div class="codeExample">
+
+<ul class="section-nav">
+  <li><a href="#active">Active</a></li>
+  <li><a href="#disabled">Disabled</a></li>
+  <li><a href="#done">Done</a></li>
+  <li><a href="#normal">Normal</a></li>
+</ul>
+<p class="styleguide">The state is 4</p><div class="codeExample">
   <div class="exampleOutput">
     <ul class="nav-step">
   <li class="done"><a href="#">1. Step 1</a></li>
@@ -82,6 +95,82 @@ specific components and modules on the page.</p><div class="codeExample">
   <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>2. Step 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>3. Step 3<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
   <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;</span>4. Step 4<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2 id="active" class="styleguide">Active</h2>
+<p class="styleguide">We have a few background colors that can be used in various contexts.
+These are not for use as the entire page background but instead for
+specific components and modules on the page.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <ul class="nav-step">
+  <li><a href="#">Normal state step</a></li>
+</ul>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Normal state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2 id="disabled" class="styleguide">Disabled</h2>
+<p class="styleguide">We have a few background colors that can be used in various contexts.
+These are not for use as the entire page background but instead for
+specific components and modules on the page.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <ul class="nav-step">
+  <li><a href="#">Normal state step</a></li>
+</ul>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Normal state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2 id="done" class="styleguide">Done</h2>
+<p class="styleguide">We have a few background colors that can be used in various contexts.
+These are not for use as the entire page background but instead for
+specific components and modules on the page.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <ul class="nav-step">
+  <li><a href="#">Normal state step</a></li>
+</ul>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Normal state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h2 id="normal" class="styleguide">Normal</h2>
+<p class="styleguide">We have a few background colors that can be used in various contexts.
+These are not for use as the entire page background but instead for
+specific components and modules on the page.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <ul class="nav-step">
+  <li><a href="#">Normal state step</a></li>
+</ul>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Normal state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></pre>
     </div>
   </div>
