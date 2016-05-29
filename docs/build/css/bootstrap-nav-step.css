@@ -9,32 +9,6 @@ ul.nav-step {
   overflow: hidden;
 }
 
-ul.nav-step:before {
-  display: block;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 56px;
-  height: 57px;
-  border-top: 1px solid #d4d4d4;
-  border-bottom: 1px solid #d4d4d4;
-  z-index: 11;
-  content: " ";
-}
-
-ul.nav-step:after {
-  display: block;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 138px;
-  height: 47px;
-  border-top: 1px solid #d4d4d4;
-  border-bottom: 1px solid #d4d4d4;
-  z-index: 11;
-  content: " ";
-}
-
 ul.nav-step li {
   position: relative;
   float: left;
@@ -59,7 +33,7 @@ ul.nav-step li a:hover {
 ul.nav-step li:before {
   position: absolute;
   display: block;
-  border: 28px solid transparent;
+  border: 30px solid transparent;
   border-left: 16px solid #d4d4d4;
   border-right: 0;
   top: -1px;
@@ -71,7 +45,7 @@ ul.nav-step li:before {
 ul.nav-step li:after {
   position: absolute;
   display: block;
-  border: 28px solid transparent;
+  border: 30px solid transparent;
   border-left: 16px solid #f9f9f9;
   border-right: 0;
   top: -1px;

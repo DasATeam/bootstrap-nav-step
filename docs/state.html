@@ -78,89 +78,82 @@
   <li><a href="#done">Done</a></li>
   <li><a href="#normal">Normal</a></li>
 </ul>
-<p class="styleguide">The state is 4</p><div class="codeExample">
+<p class="styleguide">bootstrap-nav-step has 4 step to show different condition about the step.</p><div class="codeExample">
   <div class="exampleOutput">
     <ul class="nav-step">
-  <li class="done"><a href="#">1. Step 1</a></li>
-  <li class="active"><a href="#">2. Step 2</a></li>
-  <li><a href="#">3. Step 3</a></li>
-  <li class="disabled">4. Step 4</li>
+  <li class="done"><a href="#">1. Done</a></li>
+  <li class="active"><a href="#">2. Active (ongoing)</a></li>
+  <li><a href="#">3. Normal</a></li>
+  <li class="disabled">4. Disabled</li>
 </ul>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"done"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1. Step 1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>2. Step 2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>3. Step 3<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;</span>4. Step 4<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"done"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>1. Done<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>2. Active (ongoing)<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>3. Normal<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;</span>4. Disabled<span class="nt">&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></pre>
     </div>
   </div>
 </div>
 
 <h2 id="active" class="styleguide">Active</h2>
-<p class="styleguide">We have a few background colors that can be used in various contexts.
-These are not for use as the entire page background but instead for
-specific components and modules on the page.</p><div class="codeExample">
+<p class="styleguide">Active state used in step which the user currently on.</p><div class="codeExample">
   <div class="exampleOutput">
     <ul class="nav-step">
-  <li><a href="#">Normal state step</a></li>
+  <li class="active"><a href="#">Active state step</a></li>
 </ul>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Normal state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Active state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></pre>
     </div>
   </div>
 </div>
 
 <h2 id="disabled" class="styleguide">Disabled</h2>
-<p class="styleguide">We have a few background colors that can be used in various contexts.
-These are not for use as the entire page background but instead for
-specific components and modules on the page.</p><div class="codeExample">
+<p class="styleguide">Disabled state used in step which the user cannot click right now, but we inform
+what step they will face.</p><p class="styleguide">In disabled state, you must not to add <code class="styleguide">&lt;a&gt;</code> tag.</p><div class="codeExample">
   <div class="exampleOutput">
     <ul class="nav-step">
-  <li><a href="#">Normal state step</a></li>
+  <li class="disabled">Disabled state step</li>
 </ul>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Normal state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;</span>Disabled state step<span class="nt">&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></pre>
     </div>
   </div>
 </div>
 
 <h2 id="done" class="styleguide">Done</h2>
-<p class="styleguide">We have a few background colors that can be used in various contexts.
-These are not for use as the entire page background but instead for
-specific components and modules on the page.</p><div class="codeExample">
+<p class="styleguide">Done state used in step which the content is completed by user.</p><div class="codeExample">
   <div class="exampleOutput">
     <ul class="nav-step">
-  <li><a href="#">Normal state step</a></li>
+  <li class="done"><a href="#">Done state step</a></li>
 </ul>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"nav-step"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Normal state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"done"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Done state step<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></pre>
     </div>
   </div>
 </div>
 
 <h2 id="normal" class="styleguide">Normal</h2>
-<p class="styleguide">We have a few background colors that can be used in various contexts.
-These are not for use as the entire page background but instead for
-specific components and modules on the page.</p><div class="codeExample">
+<p class="styleguide">Normal state used in step which user can click and change.</p><div class="codeExample">
   <div class="exampleOutput">
     <ul class="nav-step">
   <li><a href="#">Normal state step</a></li>

@@ -5,9 +5,7 @@ title: Normal
 name: normal
 ---
 
-We have a few background colors that can be used in various contexts.
-These are not for use as the entire page background but instead for
-specific components and modules on the page.
+Normal state used in step which user can click and change.
 
 ```html_example
 <ul class="nav-step">

@@ -5,13 +5,14 @@ title: Disabled
 name: disabled
 ---
 
-We have a few background colors that can be used in various contexts.
-These are not for use as the entire page background but instead for
-specific components and modules on the page.
+Disabled state used in step which the user cannot click right now, but we inform
+what step they will face.
+
+In disabled state, you must not to add `<a>` tag.
 
 ```html_example
 <ul class="nav-step">
-  <li><a href="#">Normal state step</a></li>
+  <li class="disabled">Disabled state step</li>
 </ul>
 ```
 */

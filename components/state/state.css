@@ -5,14 +5,14 @@ name: state
 category: State
 ---
 
-The state is 4
+bootstrap-nav-step has 4 step to show different condition about the step.
 
 ```html_example
 <ul class="nav-step">
-  <li class="done"><a href="#">1. Step 1</a></li>
-  <li class="active"><a href="#">2. Step 2</a></li>
-  <li><a href="#">3. Step 3</a></li>
-  <li class="disabled">4. Step 4</li>
+  <li class="done"><a href="#">1. Done</a></li>
+  <li class="active"><a href="#">2. Active (ongoing)</a></li>
+  <li><a href="#">3. Normal</a></li>
+  <li class="disabled">4. Disabled</li>
 </ul>
 ```
 */
